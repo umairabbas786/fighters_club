@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'sportage';
+    src: url('../font/sportage-demo-webfont.woff2') format('woff2'),
+         url('../font/sportage-demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background: url("../img/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: 'sportage';
+    font-weight:400
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #dfc03e; 
+  }
+  /* PlaceHolder Color*/
+  .form-control::placeholder {
+    color: #dfc03e;
+    opacity: 1;
+  }
+  :-ms-input-placeholder {
+    color: #dfc03e;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #dfc03e;
+  }
+.side-navbar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    margin-left: -350px;
+    background-color: #ffffff;
+    transition: 0.5s;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-wrap: normal;
+  }
+.side-navbar ul{
+    color: #64605c;
+    font-size: 30px;
+    pointer-events: stroke;
+    cursor: progress;
+}
+.btn-danger{
+    color: #fff;
+    background-color: #bc9155;
+    border: #85732d;
+}
+.btn-danger:hover{
+    color: #fff;
+    background-color: #8d652e;
+    border: #857433;
+}
+.side-navbar ul a{
+    color: #dfc03e;
+}
+.side-navbar ul a:hover{
+    color: black;
+}
+.signform a{
+    color: #bc9155;
+}
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color: #dfc03e;
+  }
+  
+  .my-container {
+    transition: 0.4s;
+  }
+  
+  .active-nav {
+    margin-left: 0;
+  }
+  
+  /* for main section */
+  .active-cont {
+    margin-left: 300px;
+  }
+  
+  #menu-btn {
+    background-color: #dfc03e;
+    color: #fff;
+    margin-left: -62px;
+  }
+  
+  .my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+  }
